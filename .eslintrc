@@ -1,0 +1,55 @@
+{
+  "extends": [
+    "prettier",
+    "airbnb",
+    "airbnb/hooks",
+    "eslint:recommended",
+    "plugin:jest/recommended",
+    "plugin:react/recommended",
+    "plugin:jsx-a11y/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "plugins": ["react", "react-hooks", "jest", "better-styled-components"],
+  "env": {
+    "browser": true,
+    "amd": true,
+    "node": true,
+    "jest": true
+  },
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 2020,
+    "sourceType": "module"
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "rules": {
+    "linebreak-style": "off",
+    "prefer-const": "off",
+    "import/extensions": "off",
+    "import/no-unresolved": "off",
+    "react/jsx-props-no-spreading": "off",
+    "react/jsx-filename-extension": ["off"],
+    "react/jsx-uses-react": "off",
+    "react/react-in-jsx-scope": "off",
+    "react/prop-types": ["warn"],
+    "react/no-array-index-key": ["off"],
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+
+    "prettier/prettier": ["error", { "usePrettierrc": true }],
+    "better-styled-components/sort-declarations-alphabetically": 2,
+    "jsx-a11y/aria-role": [
+      2,
+      {
+        "ignoreNonDOM": true
+      }
+    ]
+  }
+}

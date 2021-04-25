@@ -3,7 +3,10 @@ import * as icon from 'Assets/icons';
 export const toCelsius = (k) => k - 273.15;
 export const numToString = (float) => {
   let browserLocale = navigator?.language?.toLowerCase();
-  return float.toLocaleString(browserLocale || 'en-us', { format: 'best-fit' });
+  return float.toLocaleString(browserLocale || 'en-us', {
+    minimumFractionDigits: 0,
+    maximumFractionDigits: 0,
+  });
 };
 export const compareSize = (size, media) => {
   return media === size;

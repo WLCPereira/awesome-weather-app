@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# Awesome Weather
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Hi There [:grinning:],
 
-## Available Scripts
+I bootstrapped this project with [Create React App](https://github.com/facebook/create-react-app).
 
-In the project directory, you can run:
+I also used some tools to solved that challenge, such as:
 
-### `yarn start`
+- [Material UI](https://material-ui.com/) : Well documented UI tool, that helps to develop layout and some components quickly;
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- [Axios](https://axios-http.com/) : An Ajax tool helps develop services rules easily;
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- [Leaflet](https://leafletjs.com/) : A Map service that allows to render a map on the screen with few lines of code. The map events can control some states into the application;
 
-### `yarn test`
+- [React Router](https://reactrouter.com/) : To help users navigate through the application's pages;
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [Eslint](https://eslint.org/) and [Prettier](https://prettier.io/) : That helps to write a legible code;
 
-### `yarn build`
+- [husky](https://www.husky.io/) and [lint-staged](https://opencollective.com/lint-staged) : To check and fix any linting error before commit code into the repository;
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [git-commit-msg-linter](https://github.com/legend80s/commit-msg-linter#readme) : This tool helps to keep a standard of commit writing into repository.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Screenshots
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Home
 
-### `yarn eject`
+![home_normal](./Doc/img/home_normal.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+![home_search](./Doc/img/home_searchok_normal.png)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Home Mobile
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+![home_mobile](./Doc/img/home_mobile.png)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+![home_search_mobile](./Doc/img/home_searchok_mobile.png)
 
-## Learn More
+### Weather Info
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![weather_null_normal](./Doc/img/weather_statusnull_normal.png)
+![weather_info_normal](./Doc/img/weather_info_normal.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Weather Mobile
 
-### Code Splitting
+![weather_null_mobile](./Doc/img/weather_statusnull_mobile.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![weather_info_mobile](./Doc/img/weather_info_mobile.png)
 
-### Analyzing the Bundle Size
+You also can check the application running [Here](https://awesomeweatherapp.netlify.app)!.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Running in DEV
 
-### Making a Progressive Web App
+To running this application in your system, [NodeJs](https://nodejs.org/en/) is needed. Follow de steps below:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Once NodeJs intalled, you need to clone this repo with following command: `git clone https://github.com/WLCPereira/awesome-weather-app.git`;
 
-### Advanced Configuration
+- Then access de page into terminal: `cd /awesome-weather-app`;
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- Run `npm install` or `yarn install` to instal all projec dependecies;
 
-### Deployment
+- Run `npm start` or `yarn start`;
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `yarn build` fails to minify
+        IMPORTANT
+To the application work fine, you need to fill the REACT_APP_OPENWEATHER_TOKEN variable into .env file. To get the value to fill that field, access this [link](https://home.openweathermap.org/users/sign_up)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+I hope you all enjoy that. =)
+
+Bye!

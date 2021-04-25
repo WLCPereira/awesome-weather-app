@@ -45,7 +45,7 @@ I also used some tools to solved that challenge, such as:
 
 ![weather_info_mobile](./Doc/img/weather_info_mobile.png)
 
-You also can check the application running [Here](https://awesomeweatherapp.netlify.app)!.
+You also can check the application running [Here](https://awesome-weather-react-app.netlify.app).
 
 ### Running in DEV
 
@@ -59,9 +59,9 @@ To running this application in your system, [NodeJs](https://nodejs.org/en/) is 
 
 - Run `npm start` or `yarn start`;
 
+          IMPORTANT
 
-        IMPORTANT
-To the application work fine, you need to fill the REACT_APP_OPENWEATHER_TOKEN variable into .env file. To get the value to fill that field, access this [link](https://home.openweathermap.org/users/sign_up)
+  To the application work fine, you need to fill the REACT_APP_OPENWEATHER_TOKEN variable into .env file. To get the value to fill that field, access this [link](https://home.openweathermap.org/users/sign_up)
 
 I hope you all enjoy that. =)
 

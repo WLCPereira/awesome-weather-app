@@ -4,8 +4,8 @@ export default function HomeFactory({ props }) {
   const { history } = props;
   const [isDragin, setDragin] = useState(true);
   const [position, setPosition] = useState({
-    lat: -14.2400732,
-    lng: -53.1805017,
+    lat: -22.9028,
+    lng: -43.2075,
   });
 
   function inititalEffect() {

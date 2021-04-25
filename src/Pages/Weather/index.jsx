@@ -37,14 +37,14 @@ export default function Weather(props) {
   const { initialEffect, mapEffect } = effects;
   const { eventHandlers, handleSelect, onMapLoad, backEvent } = events;
 
-  // renders Selec component changes value when selectedLocale's value changes.
+  // renders Select component changes value when selectedLocale's value changes.
   const renderSelect = useMemo(() => {
     if (!locales.length) return null;
     return (
       <Select
         labelId="label-select-location"
         id="select-location"
-        label="Select a locale"
+        label="Select a location"
         value={selectedLocation.id || ''}
         onChange={handleSelect}
       >

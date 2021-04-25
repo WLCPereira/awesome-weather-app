@@ -106,13 +106,13 @@ export default function Weather(props) {
               {temp}°C
             </Typography>
             <Box as="div" className={classes.weatherPaperTemp_content_minMax}>
-              <Typography color="Secondary" variant="subtitle1">
+              <Typography color="secondary" variant="subtitle1">
                 Min
               </Typography>
               <Typography>{min}°C</Typography>
             </Box>
             <Box as="div" className={classes.weatherPaperTemp_content_minMax}>
-              <Typography color="Secondary" variant="subtitle1">
+              <Typography color="secondary" variant="subtitle1">
                 Max
               </Typography>
 

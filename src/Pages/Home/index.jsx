@@ -32,7 +32,7 @@ export default function Home(props) {
         <Tooltip title="Search" aria-label="Serach">
           <span>
             <Fab
-              color="primary"
+              color="secondary"
               className={classes.homeSearchButton}
               disabled={isDragin}
               onClick={anchorToWeaher}

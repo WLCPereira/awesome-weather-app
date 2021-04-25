@@ -9,7 +9,7 @@
     "plugin:jsx-a11y/recommended",
     "plugin:prettier/recommended"
   ],
-  "plugins": ["react", "react-hooks", "jest", "better-styled-components"],
+  "plugins": ["react", "react-hooks", "jest"],
   "env": {
     "browser": true,
     "amd": true,
@@ -42,9 +42,7 @@
     "react/no-array-index-key": ["off"],
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
-
     "prettier/prettier": ["error", { "usePrettierrc": true }],
-    "better-styled-components/sort-declarations-alphabetically": 2,
     "jsx-a11y/aria-role": [
       2,
       {

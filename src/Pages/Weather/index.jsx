@@ -79,7 +79,9 @@ export default function Weather(props) {
       return (
         <Box className={classes.weatherInfoBoxStatusNull}>
           <Box>
-            <Typography variant="h6">There is no location selected</Typography>
+            <Typography color="secondary" variant="h6">
+              There is no location selected
+            </Typography>
             <Typography>
               Please, select a location on top page or reach some pin inside the
               map to get weather information.
@@ -152,7 +154,11 @@ export default function Weather(props) {
           <Box as="div" className={classes.weatherInfoBox}>
             <Box as="div" className={classes.weatherInfoBox_header}>
               <Tooltip title="back">
-                <IconButton aria-label="back" onClick={backEvent}>
+                <IconButton
+                  aria-label="back"
+                  className={classes.weatherInfoBox_header_backBtn}
+                  onClick={backEvent}
+                >
                   <ArrowBack />
                 </IconButton>
               </Tooltip>
